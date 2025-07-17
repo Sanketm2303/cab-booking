@@ -1,4 +1,4 @@
-🛺 Cab Booking System (Uber‑Style App)
+🛺 Cab Booking System
 A full-stack MERN (MongoDB, Express, React, Node.js) cab booking application inspired by the Sheryians Coding School tutorial. Enables users to request rides, drivers to accept bookings, and real-time tracking of trips.
 
 🚀 Features
