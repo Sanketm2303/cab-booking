@@ -27,31 +27,6 @@ Realtime Communication: WebSockets via Socket.io
 
 Maps & Geolocation: Google Maps Platform
 
-📂 Repository Structure
-perl
-Copy
-Edit
-cab-booking-system/
-├── Backend/
-│   ├── controllers/      # Route handler logic
-│   ├── db/               # Database connection setup
-│   ├── middlewares/      # Auth and validation middleware
-│   ├── models/           # Mongoose schemas (User, Ride, etc.)
-│   ├── routes/           # API route definitions
-│   ├── services/         # Business logic and socket handlers
-│   ├── app.js            # Express app initialization
-│   └── server.js         # Server + Socket.io setup
-├── frontend/             # React application
-│   ├── src/
-│   │   ├── components/   # UI components (Map, User forms, etc.)
-│   │   ├── pages/        # Screens (Home, Dashboard, Booking)
-│   │   ├── store/        # Redux slices or context
-│   │   └── utils/        # API calls, helper functions
-│   └── package.json
-├── README.md
-└── .gitignore
-🔧 Prerequisites
-Node.js (v14+)
 
 MongoDB (local or Atlas)
 
@@ -72,18 +47,15 @@ Copy
 Edit
 cd Backend
 npm install
-cp .env.example .env
-# Edit .env with MONGODB_URI, JWT_SECRET, GOOGLE_MAPS_KEY, etc.
-npm run dev
+
 3. Frontend Setup
 bash
 Copy
 Edit
 cd frontend
 npm install
-cp .env.example .env
-# Edit .env with REACT_APP_API_URL, REACT_APP_GOOGLE_MAPS_KEY, etc.
 npm start
+
 App runs at:
 
 Backend → http://localhost:5000
