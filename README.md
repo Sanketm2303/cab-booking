@@ -34,27 +34,6 @@ Google Maps API key
 
 npm or yarn
 
-⚙️ Installation & Development
-1. Clone the Repository
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/cab-booking-system.git
-cd cab-booking-system
-2. Backend Setup
-bash
-Copy
-Edit
-cd Backend
-npm install
-
-3. Frontend Setup
-bash
-Copy
-Edit
-cd frontend
-npm install
-npm start
 
 App runs at:
 
